@@ -1,0 +1,32 @@
+.info-text {
+    /* margin: 43px 70px 36px 70px; */
+    margin-bottom: 30px;
+}
+
+#theme3 {
+    /* margin: 50px 70px; */
+    padding: 47px 60px;
+}
+
+
+/* media quires */
+@media only screen and (max-width: 715px) {
+    #theme3 {
+        padding: 47px 19px;
+    }
+
+    .info-text {
+        width: 290px;
+    }
+
+    .summary-text {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #theme3 {
+        padding: 14px 10px;
+    }
+
+}

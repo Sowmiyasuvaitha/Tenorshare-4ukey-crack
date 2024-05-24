@@ -1,0 +1,40 @@
+.Bullet_Points {
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.Bullet_Points p {
+    margin: 0px 5px;
+}
+
+
+.templatesList {
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.template {
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.template img {
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}

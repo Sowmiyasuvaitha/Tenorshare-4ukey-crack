@@ -1,0 +1,17 @@
+/* media quires */
+@media only screen and (max-width: 1108px) {
+    #main-box {
+        flex-direction: column !important;
+    }
+}
+
+#theme-box-border {
+    height: fit-content;
+    min-width: 50%;
+}
+
+#spinner {
+    position: absolute !important;
+    top: 50vh;
+    left: 50vw;
+}
